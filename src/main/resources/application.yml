@@ -1,0 +1,14 @@
+spring:
+  data:
+    rest:
+      base-path: /api
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+server:
+  port: ${port:8081}
